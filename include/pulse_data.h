@@ -15,7 +15,7 @@
 
 #include <stdint.h>
 #include <stdio.h>
-#include <sys/time.h>
+#include "compat_time.h"
 #include "data.h"
 
 #define PD_MAX_PULSES        1200 // Maximum number of pulses before forcing End Of Package
